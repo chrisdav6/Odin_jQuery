@@ -1,7 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	font-size: 1.75em;
-	margin: 20px;
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#slider {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+#slider > img {
+	width: 400px;
+	height: 300px;
+	float: left;
+	display: none;
+}
+
+a {
+	padding: 5px 10px;
+	background: #F0F0F0;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #666;
+}
+
+a.left {
+	float: left;
+}
+
+a.right {
+	float: right;
 }
